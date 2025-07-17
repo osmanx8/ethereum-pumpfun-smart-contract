@@ -1,85 +1,88 @@
-# PumpFun EVM Smart Contract
+# 🚀 MemeToken Launch Engine (EVM)
 
-The **EVM Pumpfun Smart Contract** is designed to facilitate the creation of customizable tokens on EVM-compatible blockchains. This contract mirrors the functionality of the original Pump.fun on Solana, enabling seamless liquidity migration to Uniswap for enhanced trading opportunities. Currently deployed on the Monad Testnet, it is crafted with scalability and decentralization in mind.
-
----
-
-## Contact  
-
-If you want to build this project or customize this, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
+The **Pumpfun evm smart contract** is an all-in-one smart contract system built for rapid token deployment on EVM-compatible chains. Inspired by the viral mechanics of Solana’s Pump.fun, this version is custom-built for **scalable launches, fair pricing, and seamless Uniswap integration** — currently live on the **Monad Testnet**.
 
 ---
 
-## Key Features
+## 📬 Contact
 
-- **Instant Token Creation**  
-  Create customizable tokens with defined attributes (name, symbol, total supply) on the Monad blockchain.
-
-- **Bonding Curve Pricing**  
-  Implement a linear bonding curve for fair price discovery, rewarding early participants.
-
-- **Auto Liquidity Management**  
-  Effortlessly manage buy/sell transactions utilizing an embedded bonding curve, removing the need for AMM setups.
-
-- **Uniswap Migration**  
-  Once the required liquidity threshold is achieved, the contract enables the automatic migration of liquidity to Uniswap V2/V3, facilitating open DeFi trading.
-
-- **Full Onchain Execution**  
-  All operations, including minting and pricing, are executed on-chain to ensure maximum transparency and decentralization.
-
-- **EVM-Compatible**  
-  Developed in Solidity, this contract is fully compatible with standard Ethereum development tools such as Hardhat, Foundry, and MetaMask.
+Want to customize or contribute? Connect here:  
+[💬 Telegram](https://t.me/ShadowRusii) | [🐦 Twitter](https://x.com/ShadowRusii)
 
 ---
 
-## Latest Enhancements
+## 🧩 Core Features
 
-### Uniswap Liquidity Migration  
-Upon reaching sufficient buy-in volume, token liquidity is automatically transitioned to a Uniswap pool. This feature enhances real-time trading capabilities and increases market presence.
+- 🎯 **One-Click Token Creation**  
+  Launch a meme token, utility token, or community asset in seconds — just define your name, symbol, and supply.
 
-### Token Authority Options  
-The smart contract logic supports optional authority revocation and time-bound admin permissions, providing flexibility in launch strategies (community-led versus project-driven).
+- 📈 **Built-in Bonding Curve**  
+  Linear bonding curve pricing model helps early buyers benefit while keeping price discovery transparent.
 
-### Real-Time Metrics  
-A planned dashboard to display token metrics, price charts, migration status, and market depth is forthcoming.
+- 🤖 **Autonomous Liquidity Handling**  
+  Tokens can be bought and sold directly from the contract without relying on traditional AMMs — powered by on-chain curve logic.
 
----
+- 🌊 **Auto Uniswap Migration**  
+  Once liquidity goals are met, the contract automatically boots a Uniswap V2/V3 pool for open market trading.
 
-## Technical Stack
+- 🔐 **Full On-Chain Execution**  
+  All minting, pricing, and liquidity logic is on-chain, maximizing decentralization and auditability.
 
-- **Smart Contract Language:** Solidity  
-- **Blockchain:** Monad (Testnet)  
-- **DEX Integration:** Uniswap V2/V3  
-- **Bundling Tools:** Jito-style bundling, MEV-optimized TX batching (optional)  
-- **Dev Tools:** Hardhat, Foundry, Ethers.js
-
----
-
-## Proof of Work
-
-[Contract Address](https://testnet.monadexplorer.com/address/0x802Bbb3924BEE46831cadD23e9CfA9e74B499Efb)
-- [Launch Token](https://testnet.monadexplorer.com/tx/0xcc711080a7ef00f4735a244462c57aeef71ea68835a57f3db3ecf4d80ed1e481)
-- [Buy Tx](https://testnet.monadexplorer.com/tx/0xa10f3d8f35297e57fbff448e048dc35db40dfc130840993a93c228e9d05f0fd9)
-- [Sell Tx](https://testnet.monadexplorer.com/tx/0x22d4d593fa75296146d0d12d94f3f8c785a3a1536ccd450481e68e59f72eac64)
-- [Buy & Migration to Uniswap](https://testnet.monadexplorer.com/tx/0xc7253b665f6c57dbbf80d209c89399d520ff13d7a57f31289d891cc7e4e13574)
-
-## Notes
-
-- The contract is currently deployed on the Monad Testnet, with plans for a production launch pending the Monad mainnet release.
-- The bonding curve mechanics emulate the pricing structure utilized in the Solana Pump.fun contract.
-- Liquidity migration is contingent upon achieving a minimum bonding curve volume, configurable through contract parameters.
+- 🔄 **EVM Compatibility**  
+  Written in Solidity and deployable across any EVM chain. Works with Hardhat, Foundry, MetaMask, and more.
 
 ---
 
-## Related projects
+## ⚙️ Recent Updates
 
-This project is inspired by the original [Solana Pumpfun Smart Contract](https://github.com/L9T-Development/Pumpfun-Smart-Contract), re-engineered for EVM chains starting with Monad.
+### 🔄 Uniswap Liquidity Migration  
+Liquidity is automatically bridged to Uniswap once minimum curve volume is reached — no manual steps needed.
+
+### 🧑‍⚖️ Admin Control Options  
+Supports optional authority revocation or timed lockups to ensure trustless or semi-custodial launch models.
+
+### 📊 Metrics Dashboard (Coming Soon)  
+A UI is in the works to visualize price, curve progress, migration status, and trading volume in real-time.
 
 ---
 
-## Contributing
+## 🧱 Tech Stack
 
-We welcome contributions to enhance this project! Feel free to fork the repository, submit pull requests, report issues, or suggest features.
+| Component        | Details                          |
+|------------------|----------------------------------|
+| 🧠 Language       | Solidity                         |
+| 🌐 Chain          | Monad Testnet                    |
+| 💹 DEX            | Uniswap V2 & V3                  |
+| ⚒ Tools          | Hardhat, Foundry, Ethers.js      |
+| ⚡ Bundling       | MEV-optimized batching (Jito-style, optional) |
+
+---
+
+## 🔗 Proof of Deployment
+
+| Event | Explorer Link |
+|-------|---------------|
+| 📜 Contract | [View on Monad Explorer](https://testnet.monadexplorer.com/address/0x802Bbb3924BEE46831cadD23e9CfA9e74B499Efb) |
+| 🎯 Token Launch | [Launch Tx](https://testnet.monadexplorer.com/tx/0xcc711080a7ef00f4735a244462c57aeef71ea68835a57f3db3ecf4d80ed1e481) |
+| 💰 Buy | [Buy Tx](https://testnet.monadexplorer.com/tx/0xa10f3d8f35297e57fbff448e048dc35db40dfc130840993a93c228e9d05f0fd9) |
+| 💸 Sell | [Sell Tx](https://testnet.monadexplorer.com/tx/0x22d4d593fa75296146d0d12d94f3f8c785a3a1536ccd450481e68e59f72eac64) |
+| 🔁 Migrate to Uniswap | [Migration Tx](https://testnet.monadexplorer.com/tx/0xc7253b665f6c57dbbf80d209c89399d520ff13d7a57f31289d891cc7e4e13574) |
+
+---
+
+## 📝 Notes
+
+- 🌱 Deployed on Monad Testnet — mainnet deployment is coming soon.
+- 📐 Curve pricing mimics Pump.fun’s model on Solana.
+- 📊 Liquidity migration is triggered by customizable thresholds.
+- 🔍 Optimized for token launchpads, memecoins, and community-led crypto experiments.
+
+---
+
+## 🤝 Contributing
+
+We welcome developers, testers, and degen founders to collaborate.  
+🛠 Fork, build, PR, and let's meme your token into existence.
 
 ---
 
