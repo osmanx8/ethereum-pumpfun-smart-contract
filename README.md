@@ -7,7 +7,7 @@ The **Pumpfun evm smart contract** is an all-in-one smart contract system built 
 ## 📬 Contact
 
 Want to customize or contribute? Connect here:  
-[💬 Telegram](https://t.me/ShadowRusii) | [🐦 Twitter](https://x.com/ShadowRusii)
+[💬 Telegram](https://t.me/web3_maxim) | [🐦 Twitter](https://x.com/web3_maxi)
 
 ---
 
